@@ -1,0 +1,25 @@
+.container-custom {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+p > span, p > span > select, #get-random-repo {
+  width: 100%;
+}
+
+.error {
+  border: 1px solid #e00100;
+}
+
+.card-custom {
+  margin-bottom: 15px;
+}
+
+.hero-body {
+  background-repeat: none;
+  background: url("pexels-photo-317356.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
