@@ -1,0 +1,1 @@
+aws s3 sync . s3://canlas/star-getter/ --exclude ".git/*" --acl public-read
