@@ -23,8 +23,8 @@ function getStarredRepos(pageNum, repoCount, user){
 
       if ( pages[1] && pages[1].indexOf("rel=\"last\"") > -1 ) {
 
-          if ( document.getElementById("loading") !== null ) {
-            resultEl.innerHTML = "<div id='loading'></div>";
+          if ( document.getElementById("loading") === null ) {
+            resultEl.innerHTML = "<div id='loading'>" + loadingTemplate + "</div>";
           }
 
           stars = _.concat(stars, data.data);
