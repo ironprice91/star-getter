@@ -1,4 +1,4 @@
-var template = "<div class='card card-custom'>\
+var template = "<div class='card card-custom fadeInUp animated'>\
               <header class='card-header'>\
                 <p class='card-header-title'><%= name %>\
                 <% if (typeof description !== 'undefined' && description && description !== null) { %>\
@@ -24,7 +24,7 @@ var template = "<div class='card card-custom'>\
               </div>\
             </div>";
 
-var errorTemplate = '<div class="card error">\
+var errorTemplate = '<div class="card error fadeInUp animated">\
                       <div class="card-content">\
                         <p class="title">\
                           Github unauthenticated API rate limit exceeded. Please check back in an hour.\
